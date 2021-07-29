@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <main>
+        <section>
+            <video src="/clasevideo/video/21-06-2020_03-55-30_p._m.-sogctxo2.mp4#t=120,130" controls preload="auto"></video>
+            <!-- con la propiedad controls agregamos los botones del reproductor de video como reproducir, pausar, volumen, etc -->
+            <!-- con la propiedad preload podemos hacer que el video cargue en cuanto la pagina se renderice -->
+            <!--  #t=120,130 agregando estos parametros adicionales en la liga del video poemos dar relevancia a cierta parte del video, indicando en que momento empezar a reproducir el video y pausarlo-->
+        </section>
+        <section>
+            <video controls preload="auto">
+                <!-- con uso de la etiqueta source dentro de video podemos usar diferentes tipos de video con la finalidad
+                de que el navegador pueda reproducir el formato compatible. -->
+                <source src="/clasevideo/video/21-06-2020_03-55-30_p._m.-sogctxo2.mp4#t=120,130">
+                <source src="/clasevideo/video/21-06-2020_03-55-30_p._m.-sogctxo2.m4v#t=120,130">
+            </video>
+        </section>
+    </main>
+</body>
+</html>
