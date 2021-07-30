@@ -1,0 +1,13 @@
+/* selector universal */
+*{
+    box-sizing: border-box; /*esta propiedad considera el border y padding pero no el margin*/
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%; /*ancho*/
+    height: 500px; /*alto*/
+    border: 10px solid black; /*pinta un borde de 10px de color negro*/
+    padding: 20px 35px; /* es un espacio ineterior del modelo de caja*/
+}
