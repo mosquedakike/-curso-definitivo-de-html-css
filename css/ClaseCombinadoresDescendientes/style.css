@@ -1,4 +1,5 @@
 /* combiador hijo directo o child*/
+/* en este caso la etiqueta p es hijo de la etiqueta div que es su padre */
 div > p{
     color: red;
 }
