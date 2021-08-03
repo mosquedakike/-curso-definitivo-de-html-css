@@ -1,0 +1,17 @@
+*{
+    /* en cada proyecto hay que incluir estos valores como una buena practica
+    en el selector universal al igual que el tamaño del font-size en la etiqueta html */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    /* con esto tamaño un rem siempre va vales 10px */
+    font-size: 62.5%;
+}
+
+.text-container {
+    /* esto equivale a 16px */
+    font-size: 1.6rem;
+}
