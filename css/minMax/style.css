@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+main{
+    width: 100vw; /*vw = viewport width*/
+    height: 100vh; /*vh = viewport heigth*/
+    background-color: purple;
+}
+
+section{
+    width: 80%; /*80% del ancho del viewport*/
+    min-width: 320px; /*el ancho minimo del elemento section es de 320px*/
+    max-width: 500px; /*el ancho maximo del elemento section es de 500px*/
+    min-height: 500px; /*el alto del elemento es de 500px pero si el contenido excede ese tamaño el sectiion se ajusta automaticamente*/
+    margin: 0 auto; /*arriba y abajo no agrega ningun margen pero a los lados distribulle el espacio que tiene disponible*/
+    background-color: red;
+}
