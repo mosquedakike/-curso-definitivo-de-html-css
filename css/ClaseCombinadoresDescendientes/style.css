@@ -1,0 +1,10 @@
+/* combiador hijo directo o child*/
+div > p{
+    color: red;
+}
+
+/* combinador descendiente */
+/* este es el mas habitual */
+div p{
+    color: blue;
+}
