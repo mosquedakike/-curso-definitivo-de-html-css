@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.caja{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo{
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50px;
+}
+
+.contenido{
+    background-color: rgb(197, 197, 197);
+    border: 1px solid black;
+    width: 500px;
+    height: 500ox;
+    padding: 50px;
+    display: flex;
+    border-radius: 50px;
+}

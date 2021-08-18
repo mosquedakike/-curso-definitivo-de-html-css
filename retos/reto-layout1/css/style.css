@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: rgb(215, 134, 255);
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu ul li{
+    list-style: none;
+    color: white;
+}
+
+.item-menu{
+    display: inline-block;
+    margin: 5px;
+}
+
+.main-content{
+    display: flex;
+}
+
+.content-aside{
+
+}
+
+.main-aside{
+    display: block;
+    border: 1px solid black;
+    background-color: rgba(220, 156, 245, 0.753);
+    border: 5px solid coral;
+    width: 200px;
+    height: 100px;
+}
+
+.principal-section{
+    background-color: rgb(129, 129, 129)  ;
+}
+
+.footer{
+    height: 130px;
+    background-color: yellow;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer-message{
+    padding: 20px;
+    text-align: center;
+    font-size: 10px;
+}
