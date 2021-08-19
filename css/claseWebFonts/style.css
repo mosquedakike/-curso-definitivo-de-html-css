@@ -1,0 +1,6 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap'); */
+/* Esto se considera una mala practica porque afecta el rendimiento del sitio web */
+
+html{
+    font-family: 'Style Script', cursive;
+}
